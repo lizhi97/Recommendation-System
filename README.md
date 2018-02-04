@@ -12,3 +12,8 @@ It takes three input arguments: the
 database, input user, and the number of similar users that we are looking for. Our first step is to
 check whether the user is present in the database. If the user exists, we need to compute the Pearson
 correlation score between this user and all the other users in the database.
+# compute the Pearson correlation score between two users
+Compute the Pearson correlation
+Sxy = product_sum - (user1_sum * user2_sum / num_ratings)
+Sxx = user1_squared_sum - np.square(user1_sum) / num_ratings
+Syy = user2_squared_sum - np.square(user2_sum) / num_ratings
