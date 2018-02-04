@@ -17,3 +17,5 @@ Compute the Pearson correlation
 Sxy = product_sum - (user1_sum * user2_sum / num_ratings)
 Sxx = user1_squared_sum - np.square(user1_sum) / num_ratings
 Syy = user2_squared_sum - np.square(user2_sum) / num_ratings
+
+More open source recommendation system, you can find https://github.com/grahamjenson/list_of_recommender_systems
